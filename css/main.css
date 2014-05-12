@@ -1,0 +1,170 @@
+/*----------------------------------------------------------------------------- 
+=MAIN STYLES  
+-----------------------------------------------------------------------------*/
+body{
+		font-family: 'Ubuntu', sans-serif !important;
+
+}
+.navbar-brand {
+	
+}
+
+.menu-head {
+	margin: 25px 0 40px 0;
+}
+
+.foot-divide{
+	width: 100%;
+	margin-bottom: -20px;
+}
+
+.copyright{
+	color: gray;
+	margin-left: 30px;
+}
+
+footer {
+margin: 22px 10px 0px 20px;
+background-color: lightgray;
+padding: 15px;
+width: 100% !important;
+}
+
+
+.first-head{
+	padding-top:18px;
+	margin-bottom: 40px;
+}
+
+.second-head{
+padding-top:17px;
+margin-bottom: -5px;
+}
+
+.backtotop {
+	margin-right: 20px;
+}
+
+.feature-head {
+	margin-bottom: -20px;
+	margin-top: 50px;
+	background: #138808;
+	padding-top: 50px;
+	font-size:40px;
+}
+
+.works-container {
+	background-color: #138808;
+	margin-bottom: 50px;
+}
+
+.features {
+	background: #138808;
+	margin-top: 60px;
+	padding-bottom: 60px;
+}
+
+.car-image {
+	width: 100%;
+}
+
+#benefits {
+	margin-top: 50px;
+}
+
+#carousel-example-generic{
+	margin-top: 10px;
+}
+
+.pricing-head {
+	margin-bottom: 30px;
+	margin-top:30px;
+}
+
+.navbar-default {
+	background-color: #E7E7E7;
+}
+
+.navbar{
+	background-color: rgba(238,233,233) !important;
+	border:none;
+}
+
+.navbar-header {
+	margin-top: -5px;
+	margin-bottom: 5px;
+	padding-left: 30px;
+}
+
+.btn-primary {
+	margin-top:15px;
+}
+
+.carouselheader {
+		margin-bottom: 20px;
+}
+
+.graybackground {
+	background-color: rgba(0,0,0,0.6);
+		height: 70px;
+		vertical-align: middle !important;
+		font-size: 30px;
+		padding-top: 20px;
+}
+
+
+.navbar-default .navbar-nav li.current a {
+	color: green;
+}
+
+hr {
+	width: 80%;
+	margin: 40px auto 40px auto;
+}
+
+.carousel-caption{
+	margin-bottom: 20px;
+}
+
+.active{
+	margin: 0 auto;
+}
+
+.works-text{
+	color: white;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+
+<!-- Pricing Table -->
+.price {
+  font-size: 4em;
+}
+
+.price-cents {
+  vertical-align: super;
+  font-size: 50%;
+}
+
+
+.price-month {
+  font-size: 35%;
+  font-style: italic;
+}
+.panel {
+-webkit-transition-property : scale; 
+-webkit-transition-duration : 0.2s; 
+-webkit-transition-timing-function : ease-in-out; 
+-moz-transition : all 0.2s ease-in-out;  
+}
+
+.panel:hover {
+box-shadow: 0 0 10px rgba(0,0,0,.5);
+-moz-box-shadow: 0 0 10px rgba(0,0,0,.5);
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,.5);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+}
