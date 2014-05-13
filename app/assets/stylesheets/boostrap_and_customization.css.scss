@@ -47,11 +47,6 @@ height: 100% !important;
 line-height: 1;
 }
 
-img {
-vertical-align: middle;
-height: 100%;
-width: 100%;
-}
 
 .graybackground {
 	background-color: rgba(0,0,0,0.6);
@@ -59,4 +54,33 @@ width: 100%;
 		vertical-align: middle !important;
 		font-size: 30px;
 		padding-top: 20px;
+}
+
+.alert {
+padding: 10px;
+margin-bottom: 0px;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+
+div.Features {
+margin-top: 50px;
+}
+
+.panel-default {
+margin-top: 30px;
+}
+
+
+.checkbox input[type="checkbox"] {
+	margin-left: 0;
+}
+input[type="checkbox"] {
+margin: 4px -10px 10px 10px;
+}
+
+hr {
+	width: 80%;
+	margin: 40px auto 40px auto;
+	border-top: 1px solid #969696;
 }
