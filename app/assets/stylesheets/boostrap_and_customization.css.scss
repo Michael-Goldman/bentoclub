@@ -20,15 +20,6 @@ $jumbotron-bg:                                         white;
      margin-top: -5px;
 }
 
-.car-image {
-	width: 100%;
-}
-
-.carousel {
-		margin-bottom: 20px;
-}
-
-
 
 .navbar {
 margin-bottom: 0px;
@@ -48,6 +39,7 @@ line-height: 1;
 }
 
 
+
 .graybackground {
 	background-color: rgba(0,0,0,0.6);
 		height: 70px;
@@ -63,14 +55,23 @@ border: 1px solid transparent;
 border-radius: 4px;
 }
 
-div.Features {
-margin-top: 50px;
+.features {
+margin-top: -10px;
+padding: 50px 0 50px 0;
+background-image: url('../images/brushed.png');
 }
 
 .panel-default {
 margin-top: 30px;
 }
 
+.col-md-4 {
+margin-top: 38px;
+}
+
+.text-muted {
+	font-weight: bolder;
+}
 
 .checkbox input[type="checkbox"] {
 	margin-left: 0;

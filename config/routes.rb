@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'profiles/show'
+
+  resources :orders
+
   devise_for :users
   root "pages#home"
 
