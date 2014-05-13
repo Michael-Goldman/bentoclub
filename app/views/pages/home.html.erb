@@ -1,4 +1,58 @@
-<div class="jumbotron">
-	<h1>Welcome to my app!</h1>
-	Click here to <%= link_to "Sign Up", "#", class: "btn btn-primary" %>
+           <!--Carousel--> 
+
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <p class="car-image"><%= image_tag "bentocarousel1.png" %></p>
+                <div class="carousel-caption">
+                  <h1 class="carouselheader">The easiest way to pack your kids lunch.</h1>
+                </div>
+              </div>
+              <div class="item">
+                <a class="car-image"><%= image_tag "carouselbento2.png" %></a>
+                <div class="carousel-caption">
+                  <h1 class="carouselheader">Delivered in a way that your kids will love. </br> Even the veggies.</h1>
+                </div>
+              </div>
+              <div class="item">
+                <a class="car-image"><%= image_tag "farm.png" %></a>
+                <div class="carousel-caption">
+                  <h1 class="graybackground">We like to call it farm to lunchbox.</h1>
+                </div>
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            <div><a name="benefits"></a></div>
+          </div>
+           <!--End Carousel-->
+
+
+
+<div class="container">
+<div class="jumbotron center">
+     <h1>Welcome to my app!</h1>
+     <% if user_signed_in? %>
+          # do something
+     <% else %>
+       <p>
+         <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
+         <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+       </p>
+  <% end %>  
+</div>
 </div>

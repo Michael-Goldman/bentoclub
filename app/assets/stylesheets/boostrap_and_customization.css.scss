@@ -6,6 +6,7 @@ $navbar-height:                                        50px;
 $navbar-default-bg:                          white;
 $navbar-default-brand-color:      #c0392b;
 $brand-primary:                                    #c0392b;
+$carousel-control-opacity: 0;
 $jumbotron-bg:                                         white;
 
 @import 'bootstrap';
@@ -17,4 +18,45 @@ $jumbotron-bg:                                         white;
 .navbar-brand {
      font-weight: bold;
      margin-top: -5px;
+}
+
+.car-image {
+	width: 100%;
+}
+
+.carousel {
+		margin-bottom: 20px;
+}
+
+
+
+.navbar {
+margin-bottom: 0px;
+}
+.carousel-inner > .item > a > img {
+display: block;
+width: 100% !important;
+height: 100% !important;
+line-height: 1;
+}
+
+.carousel-inner > .active > a > img {
+display: block;
+width: 100% !important;
+height: 100% !important;
+line-height: 1;
+}
+
+img {
+vertical-align: middle;
+height: 100%;
+width: 100%;
+}
+
+.graybackground {
+	background-color: rgba(0,0,0,0.6);
+		height: 70px;
+		vertical-align: middle !important;
+		font-size: 30px;
+		padding-top: 20px;
 }
