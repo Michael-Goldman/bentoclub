@@ -23,7 +23,12 @@ $jumbotron-bg:                                         white;
 
 .navbar {
 margin-bottom: 0px;
+background-image: url('../images/connect.png');
 }
+.navbar-fixed-top {
+	z-index: 1000;    
+}
+
 .carousel-inner > .item > a > img {
 display: block;
 width: 100% !important;
@@ -67,6 +72,15 @@ margin-top: 30px;
 
 .col-md-4 {
 margin-top: 38px;
+}
+
+.bottomheader {
+	background-image: url('../images/brushed.png') !important;
+	padding: 7px 0 7px 0;
+}
+
+#no-margin {
+	margin: 0 0 0 0;
 }
 
 .text-muted {
