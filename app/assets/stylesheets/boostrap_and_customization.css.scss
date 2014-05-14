@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 
 $body-bg:                                                   #ecf0f1;
 $font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -11,6 +13,39 @@ $jumbotron-bg:                                         white;
 
 @import 'bootstrap';
 
+h4 {
+	font-family: 'Roboto Slab', serif;
+	text-size: 18px;
+	text-weight: bold;
+	color: #395F1A;
+}
+
+.social {
+width: 25%;
+margin-top: 30px;
+}
+
+.col-md-6 ul{
+	margin-top: 30px;
+}
+
+.list a{
+	color: rgb(241,241,241);
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.copyright {
+	margin: 0 38px 10px;
+	font-size: 12px;
+	color: lightgray;
+}
+
+.list li{
+	list-style: none;
+	display: inline;
+}
+
 .center {
      text-align: center;
 }
@@ -20,13 +55,21 @@ $jumbotron-bg:                                         white;
      margin-top: -5px;
 }
 
-
 .navbar {
 margin-bottom: 0px;
 background-image: url('../images/connect.png');
+border: none;
 }
 .navbar-fixed-top {
 	z-index: 1000;    
+}
+
+.wholepage {
+	margin-top: 100px;
+}
+
+.carousel {
+	margin-top: -30px;
 }
 
 .carousel-inner > .item > a > img {
@@ -62,9 +105,17 @@ border-radius: 4px;
 
 .features {
 margin-top: -10px;
-padding: 50px 0 50px 0;
+padding: 35px 0 50px 0;
 background-image: url('../images/brushed.png');
 }
+
+
+.footer {
+margin-top: 0;
+padding: 0 0 0 0;
+background-image: url('../images/footerbg.png');
+}
+
 
 .panel-default {
 margin-top: 30px;
@@ -81,6 +132,8 @@ margin-top: 38px;
 
 #no-margin {
 	margin: 0 0 0 0;
+	text-size: 15px;
+  	font-family: 'Roboto', sans-serif;
 }
 
 .text-muted {

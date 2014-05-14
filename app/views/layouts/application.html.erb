@@ -11,13 +11,15 @@
 <body>
 <%= render 'layouts/header' %>
 
-<div>
+<div class="wholepage">
 		<% flash.each do |name, msg| %>
 		     <%= content_tag(:div, msg, class: "alert alert-info") %>
 		<% end %>
 <%= yield %>
-
+<%= render 'layouts/footer' %>
 </div>
+
+
 
 </body>
 </html>

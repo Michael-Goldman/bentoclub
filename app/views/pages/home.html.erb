@@ -11,9 +11,8 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active">
-                <p class="car-image"><%= image_tag "carouselbento2.png" %></p>
+                <p class="car-image"><%= image_tag "kidseating.png" %></p>
                 <div class="carousel-caption">
-                  <h1 class="carouselheader">The easiest way to pack your kids lunch.</h1>
                 </div>
               </div>
               <div class="item">
@@ -23,7 +22,7 @@
                 </div>
               </div>
               <div class="item">
-                <a class="car-image"><%= image_tag "farm.png" %></a>
+                <a class="car-image"><%= image_tag "carouselbento2.png" %></a>
                 <div class="carousel-caption">
                   <h1 class="graybackground">We like to call it farm to lunchbox.</h1>
                 </div>
@@ -71,16 +70,3 @@
           <!--End Features-->
 
 
-<div class="container">
-<div class="jumbotron center">
-     <h1>Welcome to my app!</h1>
-     <% if user_signed_in? %>
-          # do something
-     <% else %>
-       <p>
-         <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
-         <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
-       </p>
-  <% end %>  
-</div>
-</div>
