@@ -20,13 +20,33 @@ h4 {
 	color: #395F1A;
 }
 
+.works-container {
+	background-image: url('../images/solid.png');
+}
+
+
 .social {
 width: 25%;
 margin-top: 30px;
 }
 
+.howitworks{
+margin-top: 38px;
+padding: 40px 0 150px 0;
+margin-left: 14px;
+}
+
+.feature-head {
+	margin-bottom: -36px;
+}
+
 .col-md-6 ul{
 	margin-top: 30px;
+}
+
+.car-image img {
+	height: 100%;
+	width:100%;
 }
 
 .list a{
@@ -65,7 +85,7 @@ border: none;
 }
 
 .wholepage {
-	margin-top: 100px;
+	margin-top: 84px;
 }
 
 .carousel {
@@ -152,3 +172,21 @@ hr {
 	margin: 40px auto 40px auto;
 	border-top: 1px solid #969696;
 }
+
+
+.over-banner {
+position: absolute;
+left: 15%;
+right: 15%;
+bottom: 20px;
+z-index: 10;
+padding-top: 20px;
+padding-bottom: 20px;
+color: white;
+text-align: center;
+text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+left: 20%;
+right: 20%;
+padding-bottom: 30px;
+}
+
