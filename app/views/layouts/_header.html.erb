@@ -14,7 +14,6 @@
  <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "How It Works", howitworks_path %></li>
-        <li><%= link_to "About", about_path %></li>
         <% if user_signed_in? %>
           <li><%= link_to "Account Settings", edit_user_registration_path %></li>
           <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
@@ -25,10 +24,11 @@
     </ul>
 </div><!-- /.container --> 
 
-<div class="bottomheader">
 <% if user_signed_in? %>
   <% else %>
+<div class="bottomheader">
+
     <p id="no-margin" class="text-center">Healthy, balanced lunches for you kids.  Delivered fresh to your door weekly! <%= link_to "Join Bento Club Now!", new_user_session_path %> </p>
-  <% end %>
 </div>
+  <% end %>
 </nav>
