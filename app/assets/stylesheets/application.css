@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+
+.btn-trinity-white:hover {
+border: solid 2px green;
+background: #fff;
+color: green !important;
+font-weight: bold;
+}
+
+.btn-trinity-white {
+border: solid 2px #000;
+background: #fff;
+color: #000 !important;
+font-weight: bold;
+}
+.btn-trinity {
+border-radius: 0px;
+text-decoration: none;
+padding: 8px 12px;
+font-size: 12px;
+line-height: 19px;
+text-transform: uppercase;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+letter-spacing: 3px;
+-webkit-transition: all .4s ease-in-out;
+-moz-transition: all .4s ease-in-out;
+-ms-transition: all .4s ease-in-out;
+-o-transition: all .4s ease-in-out;
+transition: all .4s ease-in-out;
+}
+
+.margin-bottom {
+	margin-bottom: 30px;
+}
+
+.first-head {
+	margin-top:80px;
+}

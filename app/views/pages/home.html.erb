@@ -1,25 +1,19 @@
            <!--Carousel--> 
 
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
+
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active">
                 <p class="car-image"><%= image_tag "kidseating.png" %></p>
                 <div class="carousel-caption">
-                  <a href="#features">Learn More</a>
+                  <a  data-scroll class="btn btn-trinity btn-trinity-white" href="#features">Learn More</a> 
                 </div>
               </div>
               <div class="item">
                 <a class="car-image"><%= image_tag "bentocarousel1.png" %></a>
                 <div class="carousel-caption">
-                  <h1 class="carouselheader">Delivered in a way that your kids will love. </br> Even the veggies.</h1>
+                  <h1 class="carouselheader">Delivered in a way that your kids will love.</h1>
                 </div>
               </div>
               <div class="item">
@@ -30,23 +24,16 @@
               </div>
             </div>
 
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
-            <div><a name="benefits"></a></div>
-          </div>
+          
            <!--End Carousel-->
 
  <!--Start Features-->
+ <a id="features"></a> 
           <div class="features">
            <h1 class="first-head text-center text-muted">Benefits of Bento Club</h1>
            
             <div class="container">
-              <div class="row text-center">
+              <div class="row text-center margin-bottom">
                 <div class="col-md-4">
                   <img src="images/organic.png" alt="Organic">
                   <h3>Healthy Ingredients</h3>

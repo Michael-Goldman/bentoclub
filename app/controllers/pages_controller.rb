@@ -10,4 +10,11 @@ class PagesController < ApplicationController
 
   def faq
   end 
+
+  def welcome
+  end
+
+  def profile
+  end
+
 end
