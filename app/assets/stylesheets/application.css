@@ -14,6 +14,34 @@
  *= require_self
  */
 
+.footernav{
+	margin-top: 20px;
+}
+
+ .aboutbento {
+ 	background-color: #76b84a;
+ 	margin-top: -10px;
+ }
+
+ .featurette-heading {
+ 	font-weight: bold;
+ 	color: white;
+ 	padding: 0 0 20px 0;
+ }
+
+ .lead {
+ 	color: white;
+ 	margin-bottom: 10px;
+ }
+
+ hr{
+ 	border-color: white;
+ }
+
+ .hrother{
+ 	padding: 40px 0px 20px 0px;
+ }
+
 .btn-trinity-white:hover {
 border: solid 2px green;
 background: #fff;
@@ -50,4 +78,49 @@ transition: all .4s ease-in-out;
 
 .first-head {
 	margin-top:80px;
+}
+
+/* Signup Form */
+
+
+#mc-embedded-subscribe-form {
+	padding: 50px 0 50px 0;
+}
+
+#mc_embed_signup .mc-field-group .asterisk {
+display:none;
+}
+
+element.style {
+}
+#mc_embed_signup .indicates-required {
+display: none;
+}
+
+#mc_embed_signup .mc-field-group input {
+display: block;
+width: 40% !important;
+padding: 8px 0;
+background-color: transparent;
+text-indent: 2%;
+border-color: white;
+}
+
+#mc_embed_signup .mc-field-group label {
+display: block;
+margin-bottom: 10px !important;
+}
+
+
+#mc_embed_signup form {
+display: block;
+position: relative;
+text-align: left;
+padding: 10px 0 10px 37% !important;
+background-color: #7f8c8d;
+color: white;
+}
+
+#mc_embed_signup .button {
+margin-bottom: 20px !important;
 }
