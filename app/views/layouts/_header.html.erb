@@ -7,14 +7,17 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="/"><%= image_tag "bentoclublogo.png" %></a>
+    <a href="/" class="logo">lunchpal</a>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="navbar-collapse collapse">
  <ul class="nav navbar-nav navbar-right">
+
         <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "How It Works", howitworks_path %></li>
         <li><a  data-scroll href="#signup">Sign Up</a> </li>
+        <!-- 
         <% if user_signed_in? %>
           <li><%= link_to "Account Settings", edit_user_registration_path %></li>
           <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
@@ -22,16 +25,18 @@
         <% else %>
           <li><%= link_to "Sign in", new_user_session_path %></li>
         <% end %>
+      -->
     </ul>
+  </div>
 </div><!-- /.container --> 
 
 <% if user_signed_in? %>
   <% else %>
 <div class="bottomheader">
 
-  <p id="no-margin" class="text-center">Healthy, balanced lunches for you kids.  Delivered fresh to your door weekly! <a data-scroll href="#signup">Join Bento Club Now!</a></p>
+  <p id="no-margin" class="text-center">Healthy, balanced lunches for you kids.  Delivered fresh to your door weekly! <a data-scroll href="#signup">Join lunchpal Now!</a></p>
 
-    <!--<p id="no-margin" class="text-center">Healthy, balanced lunches for you kids.  Delivered fresh to your door weekly! <%= link_to "Join Bento Club Now!", new_user_session_path %> </p>-->
+    <!--<p id="no-margin" class="text-center">Healthy, balanced lunches for you kids.  Delivered fresh to your door weekly! <%= link_to "Join lunchpal Now!", new_user_session_path %> </p>-->
 </div>
   <% end %>
 </nav>
